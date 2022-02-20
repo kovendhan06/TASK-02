@@ -1,0 +1,49 @@
+                                                Summary Writing
+   
+         Here i started my first summary writing for the related concepts in Bindings for the Rendring ,Parsing
+   Layout and Painting etc...
+
+         1.ParseHtml
+
+                     The input to the HTML parsing process consists of a stream of code points, which is passed 
+                     through a tokenization stage followed by a tree construction stage.
+                     The output is a Document object.
+                      
+                     Parsing Html is forgiving by naturea and it is not straight forward
+                     
+                     The parsing flow is mainly used for document writing..here tokeniser is open and closing tag and
+                     script can alter the document..link & style is halt js execution.the Speculative parsing  is based on Extyernal images scripts and css
+                     The reentrant means the parsing process interrupted in same image.and 
+                     the performance insight the Parse Html is 
+                     Visualised and render.
+   
+         2.Parse Css
+                     
+                      The parse css process is based on the multiple tree for render objects styles layers and line boxes
+                      and the Non-the Render tree is Non-Visuval elements head ,script title etc...
+
+                             Nodes hidden vis for display:none;
+                      dom  node to Render object is visuval output holds style & computed metrics 
+
+         3.Layout
+
+                        It is mainly used for recursive process
+                      the Layout it's childrens are  will batch layout and immediate layout 
+                      this layouts are performance wise split into Good ,bad and Realworld
+        
+         4.Paint
+                     It's mainly used for creating layers and incrementalprocess
+                     Painting is mainly produce the bitmap from each layers.
+
+         5.RenderTree
+                     
+                     The render tree is construction of Layout and Paint.
+
+       
+
+
+
+
+
+
+

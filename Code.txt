@@ -1,0 +1,68 @@
+            Execute the below code and write your description in txt file
+
+
+                     a.typeof(1)
+                     b.typeof(1.1)
+                     c.typeof('1.1')
+                     d.typeof(true)
+                     e.typeof(null)
+                     f.typeof(undefined)
+                     g.typeof([])
+                     h.typeof({})
+                     i.typeof(NaN)
+
+      
+
+
+  a.typeof(1)
+         
+       
+        console.log(typeof(1));  //Ans: Number  
+        1 is the proper number so the output is number
+
+        
+  b.typeof(1.1)
+        
+        console.log(typeof(1.1)); // Ans:Number  
+        1.1 is also consider as proper number number so the output is number here console.log
+        is mainly used for showing the output so here not mensation this is string boolean or number 
+
+
+ c.typeof('1.1')
+         
+         console.log (typeof('1.1')); // Ans:string 
+         Here typeof('1.1') is inside the double or single quation all the value consider as string. 
+     
+  d.typeof(true)
+        
+         console.log (typeof(true));  // Ans: Boolean
+         here the value true or false is consider as boolean .it is based on boolen algebra  not !
+
+
+  e.typeof(null)
+        
+          console.log (typeof(null)); // Ans: Object
+          Here null is signify empty referance to object
+
+
+   f.typeof(undefined)
+        
+          console.log (typeof(undefined)); Ans:undefined
+          here to declare the variable but not assign the value is called undefined.
+
+   g.typeof([])
+         
+          console.log (typeof([])); // Ans:Object
+         In javascript all the derived datatypes always type object.
+
+
+
+   h.typeof({})
+
+         console.log (typeof({})); //Ans:Object
+         in javascript everything is almost object so the typeof({}) is object.
+
+   i.typeof(NaN)
+
+         console.log (typeof(NaN)); //Ans:number
+         here nan is not a number but it is numeric datatype so the typeof(nan) is number
